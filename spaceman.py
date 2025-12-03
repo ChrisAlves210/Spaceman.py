@@ -27,7 +27,7 @@ def is_word_guessed(secret_word: str, letters_guessed: List[str]) -> bool:
     Returns: 
         bool: True only if all the letters of secret_word are in letters_guessed, False otherwise
     '''
-    # Loop through letters in the secret_word and ensure all are guessed
+    # Check if all letters in secret_word are in letters_guessed
     return all(letter in letters_guessed for letter in secret_word)
 
 def get_guessed_word(secret_word: str, letters_guessed: List[str]) -> str:

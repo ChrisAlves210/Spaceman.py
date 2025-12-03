@@ -131,7 +131,7 @@ def spaceman(secret_word: str) -> None:
 
 
 
-#These function calls that will start the game
+#This is what will start the game
 def play_game() -> None:
     """Entry point to play one or multiple Spaceman games."""
     while True:

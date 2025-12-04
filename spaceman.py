@@ -103,7 +103,7 @@ def spaceman(secret_word: str) -> None:
         letters_guessed.append(guess)
 
         if is_guess_in_word(guess, secret_word):
-            # Correct guess feedback
+            # Feedback for correct guess
             current = get_guessed_word(secret_word, letters_guessed)
             print(f"Correct! {current}")
         else:
